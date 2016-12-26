@@ -1,5 +1,7 @@
 # 个人在线简历
 适配了手机端，用到了jQuery全屏滚动插件fullPage.js，鼠标划过左上角文字部分文字内容会改变。
+## 在线访问地址
+http://119.29.57.165:8080/online-resume
 ### pc端展示如下：
  ![page1](https://github.com/hieeyh/online-resume/blob/master/image/page1.jpg)
  ![page2](https://github.com/hieeyh/online-resume/blob/master/image/page2.jpg)

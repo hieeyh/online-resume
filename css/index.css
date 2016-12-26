@@ -232,7 +232,7 @@ aside b {
 	text-align: center;
 }
 #home_info1 {
-	margin-top: 256px;
+	margin-top: 276px;
     font-weight: bold;
     text-align: center;
     text-shadow:3px 6px #ce8395;
@@ -271,28 +271,31 @@ a:hover{
 	top: 50%;
 	left: 50%;
 	margin-top: 10px;
-	margin-left: -166px;
-	width: 332px;
+	margin-left: -170px;
+	width: 340px;
 	height: 36px;
 }
-.skill1 .type {
-	margin-right: 58px;
-}
-.skill2 .type {
-	margin-right: 81px;
-}
-.skill4 .type {
-	margin-right: 47px;
-}
-.skill5 .type {
-	margin-right: 64px;
-}
-.skill6 .type {
-	margin-right: 36px;
-}
-.skill7 .type {
-	margin-right: 32px;
-}
+// .skill1 .type {
+// 	margin-right: 58px;
+// }
+// .skill2 .type {
+// 	margin-right: 81px;
+// }
+// .skill4 .type {
+// 	margin-right: 47px;
+// }
+// .skill5 .type {
+// 	margin-right: 64px;
+// }
+// .skill6 .type {
+// 	margin-right: 36px;
+// }
+// .skill7 .type {
+// 	margin-right: 32px;
+// }
+// .skill7 .type {
+// 	margin-right: 32px;
+// }
 .grasp-degree {
 	float: right;
 	margin-top: 6px;
@@ -309,7 +312,13 @@ a:hover{
 	color: #fff;
 }
 .skill1 .grasp,
-.skill2 .grasp {
+.skill2 .grasp,
+.skill3 .grasp,
+.skill4 .grasp,
+.skill5 .grasp,
+.skill6 .grasp,
+.skill7 .grasp,
+.skill8 .grasp {
 	border-top-left-radius: 8px;
 	border-bottom-left-radius: 8px;
 	width: 160px;
@@ -317,7 +326,13 @@ a:hover{
 	background-color: #fff;
 } 
 .skill1 .not-grasp,
-.skill2 .not-grasp {
+.skill2 .not-grasp,
+.skill3 .not-grasp,
+.skill4 .not-grasp,
+.skill5 .not-grasp,
+.skill6 .not-grasp,
+.skill7 .not-grasp,
+.skill8 .not-grasp {
 	border-top-right-radius: 8px;
 	border-bottom-right-radius: 8px;
 	width: 40px;
@@ -327,52 +342,31 @@ a:hover{
 } 
 .skill3 .grasp,
 .skill4 .grasp {
-	border-top-left-radius: 8px;
-	border-bottom-left-radius: 8px;
 	width: 140px;
-	height: 24px;
-	background-color: #fff;
 } 
 .skill3 .not-grasp,
 .skill4 .not-grasp {
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
 	width: 60px;
-	height: 24px;
-	background-color: #ce8395;
-	opacity: 0.6;
 } 
 .skill5 .grasp {
-	border-top-left-radius: 8px;
-	border-bottom-left-radius: 8px;
-	width: 100px;
-	height: 24px;
-	background-color: #fff;
+	width: 120px;
 } 
 .skill5 .not-grasp {
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
+	width: 80px;
+} 
+.skill6 .grasp {
 	width: 100px;
-	height: 24px;
-	background-color: #ce8395;
-	opacity: 0.6;
-} 
-.skill6 .grasp,
-.skill7 .grasp {
-	border-top-left-radius: 8px;
-	border-bottom-left-radius: 8px;
+}
+.skill6 .not-grasp {
+	width: 100px;
+}
+.skill7 .grasp,
+.skill8 .grasp {
 	width: 60px;
-	height: 24px;
-	background-color: #fff;
 } 
-.skill6 .not-grasp,
-.skill7 .not-grasp {
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
+.skill7 .not-grasp,
+.skill8 .not-grasp {
 	width: 140px;
-	height: 24px;
-	background-color: #ce8395;
-	opacity: 0.6;
 } 
 /* project */
 #project_list_content {
@@ -420,7 +414,7 @@ a:hover{
 	left: 50%;
 	margin-top: 12px;
 	margin-left: -109px;
-	width: 218px;
+	width: 228px;
 }
 #contact-panel a {
 	font-size: 0.875rem;
@@ -438,11 +432,12 @@ a:hover{
 	}
 	.project_title {
 		margin-left: 325px;
-		width: 350px;
+		width: 370px;
 	}
 	.project_describe {
 		margin-left: 250px;
 		width: 500px;
+		line-height: 19px;
 	}
 	#project_content {
 		margin-top: -350px;
@@ -522,6 +517,7 @@ a:hover{
 	.project_describe {
 		margin-left: 325px;
 		width: 350px;
+		line-height: 16px;
 	}
 	.project_little {
 		height: 86px;
@@ -538,7 +534,7 @@ a:hover{
 		font-size: 1.1rem;
 	}
 	#home_info1 {
-		margin-top: 206px;
+		margin-top: 216px;
 	}
 	#home_info2 {
 		font-size: 0.8rem;
@@ -576,17 +572,23 @@ a:hover{
 		width: 54px;
 	} 
 	.skill5 .grasp {
-		width: 90px;
+		width: 108px;
 	} 
 	.skill5 .not-grasp {
+		width: 72px;
+	} 
+	.skill6 .grasp {
 		width: 90px;
 	} 
-	.skill6 .grasp,
-	.skill7 .grasp {
+	.skill6 .not-grasp {
+		width: 90px;
+	}
+	.skill7 .grasp,
+	.skill8 .grasp {
 		width: 54px;
 	} 
-	.skill6 .not-grasp,
-	.skill7 .not-grasp {
+	.skill7 .not-grasp,
+	.skill8 .not-grasp {
 		width: 126px;
 	} 
 	#project_list_content {
@@ -601,7 +603,7 @@ a:hover{
 		width: 300px;
 	}
 	.project_little {
-		margin-top: -15px;
+		margin-top: 0px;
 		height: 64px;
 	}
 }
